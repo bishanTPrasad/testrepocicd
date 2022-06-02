@@ -1,0 +1,19 @@
+<div style="width:100%;height: 50vh;">
+<div style="width:100%;height: 100vh;display: flex;">
+  <div style="background-color:aliceblue;height: 20px;width: 20px;"></div>
+  <div style="background-color:rgb(115, 122, 128);height: 20px;width: 20px;"></div>
+  <div style="background-color:rgb(21, 137, 240);height: 20px;width: 20px;"></div>
+  <div style="background-color:rgb(247, 39, 84);height: 20px;width: 20px;"></div>
+  <div style="background-color:rgba(5, 19, 32, 0.116);height: 20px;width: 20px;"></div>
+</div>
+</div>
+
+<div class=".content">
+  <span>app app is running!</span>
+  <app-child [ads]="ads">
+    <ng-container ngProjectAs="[foo]">
+      <p>Is content projection cool?</p>
+    </ng-container>
+    <p>Let's learn about content projection!</p>
+  </app-child>
+</div>

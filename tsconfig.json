@@ -1,3 +1,4 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   "compileOnSave": false,
   "compilerOptions": {
@@ -5,13 +6,15 @@
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
-    "moduleResolution": "node",
+    "downlevelIteration": true,
     "experimentalDecorators": true,
-    "target": "es6",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es5",
     "module": "es2020",
-    "lib": ["dom", "es2015", "es2016"]
-  },
-  "angularCompilerOptions": {
-    "enableIvy": false
+    "lib": [
+      "es2018",
+      "dom"
+    ]
   }
 }
