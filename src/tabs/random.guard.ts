@@ -7,6 +7,6 @@ export class RandomGuard implements CanActivate {
   private random = Math.random() > 0.1;
 
   canActivate(): Observable<boolean> | Promise<boolean> | boolean {
-    return this.random;
+    return true;
   }
 }
