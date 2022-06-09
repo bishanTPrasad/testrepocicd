@@ -9,6 +9,7 @@
     "deploy": "c8ycli deploy",
     "sonar": "sonar-scanner",
     "test": "ng test"
+    
   },
   "keywords": [],
   "author": "",
